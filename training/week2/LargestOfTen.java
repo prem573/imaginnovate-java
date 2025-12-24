@@ -9,10 +9,8 @@ public class LargestOfTen {
 
         System.out.println("Enter 10 numbers:");
 
-        // Read first number and assume it is the largest
         max = sc.nextInt();
 
-        // Read remaining 9 numbers
         for (int i = 2; i <= 10; i++) {
             num = sc.nextInt();
 
